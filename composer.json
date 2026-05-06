@@ -1,0 +1,17 @@
+{
+    "name": "dcf/valuation-app",
+    "description": "5-Year DCF Stock Valuation Web App",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^5.7",
+        "tecnickcom/tcpdf": "^6.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,14 @@
+# PHP dependencies — regenerate with: composer install
+vendor/
+
+# Composer lock is included intentionally; ignore only the vendor dir above
+
+# Yahoo Finance session cookie (auto-created at runtime)
+*.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
